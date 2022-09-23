@@ -1,0 +1,12 @@
+source selenium_env/bin/activate 
+-  команда для запуска вирт окружение
+
+python3 ~/selenium_course/lesson2.4_step3.py
+- запуск скрипта
+
+cd /Users/Marina3/environments
+- путь 
+
+price_text = WebDriverWait(browser, 15).until(EC.text_to_be_present_in_element((By.ID, "price"), '100'))
+- пример явного ожидания по условию ожидаемого текста, напр. "опредленная цена"
+
