@@ -1,3 +1,3 @@
 # auto_tests_stepik
 
-проект по написанию классных авто-тестов на основе курса от stepik
+auto tests based on Stepik course
